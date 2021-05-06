@@ -49,9 +49,6 @@ function getcomments()
 	
 				
     xhr.send(null);
-	
-	// Invokes getComments every minute
-	setInterval(getcomments, 60000);
 
 }
 
